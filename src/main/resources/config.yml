@@ -1,0 +1,33 @@
+# All commands bypass permission: 'vettheranticommand.bypass'
+groups:
+
+  # Default group for all players, no permission needed
+  default:
+    - "login"
+    - "register"
+    - "msg"
+    - "reply"
+    - "r"
+    - "ignore"
+    - "helpop"
+    - "ranks"
+    - "spawn"
+    - "tpa"
+
+  # Example group, need permission 'vettheranticommand.group.admin' for use
+  admin:
+    - "mute"
+    - "unmute"
+    - "kick"
+    - "ban"
+    - "unban"
+    - "gamemode"
+    - "fly"
+    - "tp"
+    - "broadcast"
+    - "pardon"
+
+  # Example group, need permission 'vettheranticommand.group.headadmin' for use
+  # Add 'bypass: true' to groups to allow to see ALL COMMANDS
+  headadmin:
+    bypass: true
