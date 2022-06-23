@@ -1,4 +1,4 @@
-# All commands bypass permission: 'vettheranticommand.bypass'
+# All commands bypass permission: 'anticommand.bypass'
 groups:
 
   # Default group for all players, no permission needed
@@ -14,7 +14,7 @@ groups:
     - "spawn"
     - "tpa"
 
-  # Example group, need permission 'vettheranticommand.group.admin' for use
+  # Example group, need permission 'anticommand.group.admin' for use
   admin:
     - "mute"
     - "unmute"
@@ -27,7 +27,7 @@ groups:
     - "broadcast"
     - "pardon"
 
-  # Example group, need permission 'vettheranticommand.group.headadmin' for use
+  # Example group, need permission 'anticommand.group.headadmin' for use
   # Add 'bypass: true' to groups to allow to see ALL COMMANDS
   headadmin:
     bypass: true

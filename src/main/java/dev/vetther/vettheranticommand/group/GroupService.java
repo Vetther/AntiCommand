@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class GroupService {
 
-    public static final String DEFAULT_PERMISSION = "vettheranticommand.group.default";
+    public static final String DEFAULT_PERMISSION = "anticommand.group.default";
     private final Set<Group> groups;
     private final ConfigurationManager configurationManager;
     private final GroupFactory groupFactory;
@@ -27,7 +27,7 @@ public class GroupService {
 
         for (String groupName : this.configurationManager.getGroupsNames()) {
 
-            String groupPermission = "vettheranticommand.group." + groupName;
+            String groupPermission = "anticommand.group." + groupName;
             Set<String> groupCommands = this.configurationManager.getGroupCommands(groupName);
             boolean bypass = this.configurationManager.hasBypass(groupName);
 

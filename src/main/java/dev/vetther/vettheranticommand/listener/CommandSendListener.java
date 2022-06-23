@@ -20,7 +20,7 @@ public class CommandSendListener implements Listener {
     @EventHandler(ignoreCancelled = true)
     public void onPlayerCommandSend(PlayerCommandSendEvent event) {
 
-        if (event.getPlayer().hasPermission("vettheranticommand.bypass")) {
+        if (event.getPlayer().hasPermission("anticommand.bypass")) {
             return;
         }
 

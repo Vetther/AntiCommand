@@ -25,7 +25,7 @@ public class CommandPreProcessListener implements Listener {
     @EventHandler(ignoreCancelled = true)
     public void onPlayerCommandPreprocess(PlayerCommandPreprocessEvent event) {
 
-        if (event.getPlayer().hasPermission("vettheranticommand.bypass")) {
+        if (event.getPlayer().hasPermission("anticommand.bypass")) {
             return;
         }
 
