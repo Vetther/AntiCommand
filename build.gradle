@@ -43,7 +43,7 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 tasks.withType(ShadowJar) {
-    archiveFileName.set("VettherAntiCommand.jar")
+    archiveFileName.set("AntiCommand.jar")
 
     exclude("org/intellij/lang/annotations/**")
     exclude("org/jetbrains/annotations/**")

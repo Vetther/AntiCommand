@@ -4,7 +4,7 @@ import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextDecoration;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 
-import static dev.vetther.vettheranticommand.VettherAntiCommand.MINIMESSAGE;
+import static dev.vetther.vettheranticommand.AntiCommand.MINIMESSAGE;
 
 public class LegacyUtils {
 

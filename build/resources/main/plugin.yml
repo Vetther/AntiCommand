@@ -1,6 +1,6 @@
-name: VettherAntiCommand
+name: AntiCommand
 version: '1.0.0'
-main: dev.vetther.vettheranticommand.VettherAntiCommand
+main: dev.vetther.vettheranticommand.AntiCommand
 api-version: 1.16
 authors: [ Vetther ]
 description: Plugin for blocking Commands Tab Completer

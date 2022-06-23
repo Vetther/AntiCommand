@@ -8,10 +8,9 @@ import dev.vetther.vettheranticommand.listener.CommandSendListener;
 import dev.vetther.vettheranticommand.utils.LegacyColorProcessor;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.bukkit.Bukkit;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class VettherAntiCommand extends JavaPlugin {
+public final class AntiCommand extends JavaPlugin {
 
     public static MiniMessage MINIMESSAGE;
 
