@@ -1,14 +1,13 @@
-package dev.vetther.vettheranticommand.listener;
+package dev.vetther.anticommand.listener;
 
-import dev.vetther.vettheranticommand.configuration.ConfigurationManager;
-import dev.vetther.vettheranticommand.group.GroupService;
-import dev.vetther.vettheranticommand.utils.CommandUtils;
-import dev.vetther.vettheranticommand.utils.LegacyUtils;
+import dev.vetther.anticommand.configuration.ConfigurationManager;
+import dev.vetther.anticommand.group.GroupService;
+import dev.vetther.anticommand.utils.CommandUtils;
+import dev.vetther.anticommand.utils.LegacyUtils;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 
-import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 

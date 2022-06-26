@@ -1,6 +1,6 @@
-package dev.vetther.vettheranticommand.listener;
+package dev.vetther.anticommand.listener;
 
-import dev.vetther.vettheranticommand.group.GroupService;
+import dev.vetther.anticommand.group.GroupService;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandSendEvent;

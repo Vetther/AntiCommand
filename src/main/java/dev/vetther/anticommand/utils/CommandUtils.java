@@ -1,4 +1,4 @@
-package dev.vetther.vettheranticommand.utils;
+package dev.vetther.anticommand.utils;
 
 public class CommandUtils {
 

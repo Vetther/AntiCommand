@@ -1,11 +1,11 @@
-package dev.vetther.vettheranticommand;
+package dev.vetther.anticommand;
 
-import dev.vetther.vettheranticommand.configuration.ConfigurationManager;
-import dev.vetther.vettheranticommand.group.GroupFactory;
-import dev.vetther.vettheranticommand.group.GroupService;
-import dev.vetther.vettheranticommand.listener.CommandPreProcessListener;
-import dev.vetther.vettheranticommand.listener.CommandSendListener;
-import dev.vetther.vettheranticommand.utils.LegacyColorProcessor;
+import dev.vetther.anticommand.configuration.ConfigurationManager;
+import dev.vetther.anticommand.group.GroupFactory;
+import dev.vetther.anticommand.group.GroupService;
+import dev.vetther.anticommand.listener.CommandPreProcessListener;
+import dev.vetther.anticommand.listener.CommandSendListener;
+import dev.vetther.anticommand.utils.LegacyColorProcessor;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;

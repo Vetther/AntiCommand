@@ -1,4 +1,4 @@
-package dev.vetther.vettheranticommand.configuration;
+package dev.vetther.anticommand.configuration;
 
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;

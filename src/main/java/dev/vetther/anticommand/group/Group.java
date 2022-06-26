@@ -1,4 +1,4 @@
-package dev.vetther.vettheranticommand.group;
+package dev.vetther.anticommand.group;
 
 import java.util.Set;
 

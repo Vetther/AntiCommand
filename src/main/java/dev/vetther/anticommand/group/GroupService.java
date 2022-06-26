@@ -1,7 +1,6 @@
-package dev.vetther.vettheranticommand.group;
+package dev.vetther.anticommand.group;
 
-import dev.vetther.vettheranticommand.configuration.ConfigurationManager;
-import org.bukkit.Bukkit;
+import dev.vetther.anticommand.configuration.ConfigurationManager;
 import org.bukkit.entity.Player;
 
 import java.util.HashSet;

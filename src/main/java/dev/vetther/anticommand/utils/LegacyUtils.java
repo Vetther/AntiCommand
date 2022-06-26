@@ -1,10 +1,10 @@
-package dev.vetther.vettheranticommand.utils;
+package dev.vetther.anticommand.utils;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextDecoration;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 
-import static dev.vetther.vettheranticommand.AntiCommand.MINIMESSAGE;
+import static dev.vetther.anticommand.AntiCommand.MINIMESSAGE;
 
 public class LegacyUtils {
 
