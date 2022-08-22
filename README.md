@@ -42,6 +42,7 @@ groups:
     - "fly"
     - "tp"
     - "broadcast"
+    - "bc"
     - "pardon"
 
   # Example group, need permission 'anticommand.group.headadmin' for use
