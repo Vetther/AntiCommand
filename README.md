@@ -29,7 +29,6 @@ groups:
     - "help"
     - "plot"
     - "p"
-    - "incognito"
 
   # Example group, need permission 'anticommand.group.admin' for use
   admin:
